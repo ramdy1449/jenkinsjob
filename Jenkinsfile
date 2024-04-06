@@ -31,6 +31,11 @@ pipeline {
 					echo "welcome to randys jenkins"
 				}
 			}
+			stage('6-s6'){
+				steps{
+					sh 'bash -x /var/lib/jenkins/workspace/testing/scriptdemo.sh'
+				}
+			}
 
 			
 		}
