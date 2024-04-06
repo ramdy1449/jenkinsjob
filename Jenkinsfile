@@ -36,7 +36,6 @@ pipeline {
 					sh 'bash -x /var/lib/jenkins/workspace/testing/scriptdemo.sh'
 				}
 			}
-
 			
 		}
 }
