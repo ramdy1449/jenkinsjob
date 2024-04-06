@@ -28,7 +28,7 @@ pipeline {
 			}
 			stage('5-s5'){
 				steps{
-					echo "welcome to randys jenkins"
+					echo "welcome to randys first jenkins"
 				}
 			}
 			stage('6-s6'){
